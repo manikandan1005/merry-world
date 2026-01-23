@@ -2,7 +2,7 @@ import icon from '/src/assets/icon.jpg'
 
 function Hero(){
     return(
-        <section id="Home" className="lg:max-h-screen py-20 mb-5">
+        <section  className="min-h-screen flex items-center justify-center py-40  md:py-3">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <div className='flex h-full items-center justify-center'>
                     <div className='flex flex-col gap-4 items-center mx-4 justify-center'>
@@ -15,7 +15,7 @@ function Hero(){
                     </div>
                 </div>
                 <div className='flex items-center justify-center my-4'>
-                    <img src={icon} alt="" className='h-54 w-54 shadow-xl lg:h-96 lg:w-96  p-3 object-center' />
+                    <img src={icon} alt="" className='h-54 w-54 shadow-xl lg:h-66 lg:w-66  p-3 object-center' />
                 </div>
 
             </div>
